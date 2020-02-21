@@ -6,17 +6,17 @@ There is a rentor-postman-collection-api with in the files for execution .
 
 API end points :
 ==============
-POST /api/users : you can create a new user. body parameter (name, email, password)
+POST /api/users : you can create a new user. accept a body parameter (name, email, password)
 
-POST /api/auth : you need to authenticate a registered user and get a valid token. body parameter (email, password)
+POST /api/auth : you need to authenticate a registered user and get a valid token. accept a body parameter (email, password)
 
-POST /api/genres : user can create a new genre. body parameter (name)
+POST /api/genres : user can create a new genre. accept a body parameter (name)
 
-POST /api/movies : user can create a new movie. body parameter (title, genreId, numberInStock, dailyRentalRate)
+POST /api/movies : user can create a new movie. accept a body parameter (title, genreId, numberInStock, dailyRentalRate)
 
-POST /api/customers : user can create a new customer. body parameter (name, isGold, phone)
+POST /api/customers : user can create a new customer. accept a body parameter (name, isGold, phone)
 
-POST /api/rentals : user can create a new rentals. body parameter (customerId, movieId)
+POST /api/rentals : user can create a new rentals. accept a body parameter (customerId, movieId)
 
 GET /api/users/me: will give all current user stored in database that need a valid jsonwebtoken.
 
@@ -28,11 +28,11 @@ GET /api/customers: will give all users stored in database.
 
 GET /api/rentals: will give all users stored in database.
 
-PUT /api/customers/<customer_id>: update a customer completely. body parameter(name, isGold, phone)
+PUT /api/customers/<customer_id>: update a customer completely. accept a body parameter(name, isGold, phone)
 
-PUT /api/genres/<genres_id>: update a genres completely. body parameter (name)
+PUT /api/genres/<genres_id>: update a genres completely. accept a body parameter (name)
 
-PUT /api/movies/<movies_id>: update a movies completely. body parameter (title, genreId, numberInStock, dailyRentalRate)
+PUT /api/movies/<movies_id>: update a movies completely. accept a body parameter (title, genreId, numberInStock, dailyRentalRate)
 
 DELETE /api/customers/<customer_id>: delete a customer completely
 
