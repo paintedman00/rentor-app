@@ -36,6 +36,6 @@ PUT /api/movies/<movies_id>: update a movies completely. accept a body parameter
 
 DELETE /api/customers/<customer_id>: delete a customer completely
 
-DELETE /api/genres/<genres_id>: delete a genres completely
+DELETE /api/genres/<genres_id>: delete a genre completely
 
-DELETE /api/movies/<movies_id>: delete a movies completely
+DELETE /api/movies/<movies_id>: delete a movie completely
