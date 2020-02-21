@@ -1,0 +1,30 @@
+{
+  "name": "rentor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.14.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "compression": "^1.7.4",
+    "config": "^3.2.5",
+    "express": "^4.16.2",
+    "fawn": "^2.1.5",
+    "helmet": "^3.21.2",
+    "joi": "^13.7.0",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.0.2",
+    "nodemon": "^2.0.2"
+  }
+}

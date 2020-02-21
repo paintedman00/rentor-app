@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "rentor_jwtPrivateKey",
+  "db": "rentor_db"
+}
