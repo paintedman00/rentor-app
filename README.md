@@ -28,9 +28,9 @@ GET /api/customers: will give all users stored in database.
 
 GET /api/rentals: will give all users stored in database.
 
-PUT /api/customers/<customer_id>: update a customer completely. body parameter
+PUT /api/customers/<customer_id>: update a customer completely. body parameter(name, isGold, phone)
 
-PUT /api/genres/<genres_id>: update a genres completely. body parameter (name, isGold, phone)
+PUT /api/genres/<genres_id>: update a genres completely. body parameter (name)
 
 PUT /api/movies/<movies_id>: update a movies completely. body parameter (title, genreId, numberInStock, dailyRentalRate)
 
