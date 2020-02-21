@@ -1,4 +1,4 @@
-#Rentor
+# Rentor
 
 A rental movie app created using NodeJS, Express and MongoDB with authentication and authorization.
 
